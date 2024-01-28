@@ -13,7 +13,10 @@
 
   "permissions": [
     "background",
-    "notifications",
+    "notifications"
+  ],
+
+  "host_permissions": [
     "http://*/",
     "https://*/"
   ],
