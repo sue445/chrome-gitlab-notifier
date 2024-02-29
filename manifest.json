@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "GitLab Notifier for Google Chrome™",
   "description": "Notify GitLab events (Commit, Issue, MergeRequest and Milestone)",
@@ -13,7 +13,10 @@
 
   "permissions": [
     "background",
-    "notifications",
+    "notifications"
+  ],
+
+  "host_permissions": [
     "http://*/",
     "https://*/"
   ],
