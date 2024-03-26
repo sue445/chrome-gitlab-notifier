@@ -13,7 +13,7 @@
   "author": "sue445",
   "license": "MIT",
   "dependencies": {
-    "mithril": "^2.0.4"
+    "mithril": "^2.2.2"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
